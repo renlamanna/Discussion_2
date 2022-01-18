@@ -13,7 +13,7 @@ library(tidyverse)
 
 ```{r}
 ggplot(data = starwars, aes(x = mass, y = height)) +
-  geom_jitter()
+  geom_jitter(color = "purple")
 ```
 
 
