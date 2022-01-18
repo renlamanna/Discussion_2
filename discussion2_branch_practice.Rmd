@@ -1,0 +1,19 @@
+---
+title: "Branch practice"
+author: "Renee LaManna"
+date: "1/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+```{r}
+ggplot(data = starwars, aes(x = mass, y = height)) +
+  geom_jitter()
+```
+
+
